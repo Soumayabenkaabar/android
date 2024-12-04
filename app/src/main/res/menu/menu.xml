@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Accueil"
+        app:showAsAction="never"
+        android:title="Accueil" />
+
+    <item
+        android:id="@+id/Catalogue"
+        android:title="Catalogue" />
+
+    <item
+        android:id="@+id/Homme"
+        android:title="Homme" />
+
+    <item
+        android:id="@+id/Femme"
+        android:title="Femme" />
+
+    <item
+        android:id="@+id/Enfant"
+        android:title="Enfant" />
+
+    <item
+        android:id="@+id/Sport"
+        android:title="Sport" />
+
+    <item
+        android:id="@+id/Contact"
+        android:title="Contact" />
+
+    <item
+        android:id="@+id/Commande"
+        android:title="Commande" />
+    <item
+        android:id="@+id/menu_panier"
+        android:title="Panier"
+        android:icon="@drawable/ic_panier"
+        android:showAsAction="ifRoom" />
+</menu>
